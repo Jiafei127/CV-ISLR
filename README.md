@@ -67,7 +67,7 @@ To train the models for RGB and Depth inputs:
 
 ## **Ensemble Learning**
 
-After training the individual models, apply the ensemble strategy (You can download our [model checkpoints](#model-checkpoints).):
+After training the individual models, apply the ensemble strategy (You can download our [Model Checkpoints\[huggingface\]](https://huggingface.co/iFei-hfut/CV-ISLR).):
 
 1. Merge predictions from multiple backbones:
    ```bash
