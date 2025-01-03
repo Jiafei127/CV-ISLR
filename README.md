@@ -60,7 +60,7 @@ To train the models for RGB and Depth inputs:
 
 4. **Inference**：
    ```bash
-   CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=29500 bash tools/dist_test.sh configs/recognition/swin/swin-base-p244-w877_in1k-pre_8xb8-amp-32x2x1-30e_www.py ./work_dirs/swin-base-p244-w877_in1k-pre_8xb8-amp-32x2x1-30e_www/best_acc_top1_epoch_30.pth 4 --dump result.pkl
+   PORT=29500 bash tools/dist_test.sh configs/recognition/swin/swin-<file_name>_rgb.py ./work_dirs/swin-<checkpoint_name>.pth --dump result.pkl
    ```
 
 ---
