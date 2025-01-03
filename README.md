@@ -4,7 +4,7 @@ This repository contains our implementation for the Cross-View Isolated Sign Lan
 
 ---
 
-## **Key Contributions**
+## **Main Contributions**
 1. **Ensemble Learning Integration**:  
    We integrate Ensemble Learning into the CV-ISLR framework, enhancing robustness and generalization to effectively handle viewpoint variability.
 
@@ -23,11 +23,13 @@ To set up the environment, follow these steps:
    cd CV_ISLR_WWW2025
    
 2. Install dependencies:
-  conda create -n cv_islr python=3.8 -y
-  conda activate cv_islr
-  pip install -r requirements.txt
+   ```bash
+   conda create -n cv_islr python=3.8 -y
+   conda activate cv_islr
+   pip install -r requirements.txt
 
 3. Install MMAction2 v1.2.0:
-  git clone https://github.com/open-mmlab/mmaction2.git
-  cd mmaction2
-  pip install -e .
+   ```bash
+   git clone https://github.com/open-mmlab/mmaction2.git
+   cd mmaction2
+   pip install -e .
