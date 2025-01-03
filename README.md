@@ -1,4 +1,4 @@
-# CV_ISLR_WWW2025
+# WWW25@CV-ISLR
 
 This repository contains our implementation for the Cross-View Isolated Sign Language Recognition (CV-ISLR) task submitted to the WWW 2025 competition. Our approach combines **Ensemble Learning** and **Video Swin Transformer (VST)** modules to address the challenges of cross-view sign language recognition. The framework is built on top of the [MMAction2 v1.2.0](https://github.com/open-mmlab/mmaction2) library.
 
