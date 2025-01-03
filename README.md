@@ -37,4 +37,4 @@ To set up the environment, follow these steps:
    ```bash
    git clone https://github.com/open-mmlab/mmaction2.git
    cd mmaction2
-   pip install -e .
+   pip install -v -e .
