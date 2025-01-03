@@ -35,6 +35,4 @@ To set up the environment, follow these steps:
 
 3. Install MMAction2 v1.2.0:
    ```bash
-   git clone https://github.com/open-mmlab/mmaction2.git
-   cd mmaction2
    pip install -v -e .
