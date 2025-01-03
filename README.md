@@ -18,11 +18,13 @@ This repository contains our implementation for the Cross-View Isolated Sign Lan
 To set up the environment, follow these steps:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Jiafei127/CV-ISLR.git
    cd CV-ISLR
    
 2. Install dependencies:
+
    ```bash
    conda create -n cv_islr python=3.8 -y
    conda activate cv_islr
@@ -34,5 +36,6 @@ To set up the environment, follow these steps:
    mim install mmpose 
 
 3. Install MMAction2 v1.2.0:
+
    ```bash
    pip install -v -e .
