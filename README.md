@@ -26,7 +26,12 @@ To set up the environment, follow these steps:
    ```bash
    conda create -n cv_islr python=3.8 -y
    conda activate cv_islr
-   pip install -r requirements.txt
+   conda install pytorch torchvision -c pytorch  # This command will automatically install the latest version PyTorch and cudatoolkit, please check whether they match your environment.
+   pip install -U openmim
+   mim install mmengine
+   mim install mmcv
+   mim install mmdet  
+   mim install mmpose 
 
 3. Install MMAction2 v1.2.0:
    ```bash
