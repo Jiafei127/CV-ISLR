@@ -19,8 +19,8 @@ To set up the environment, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/CV_ISLR_WWW2025.git
-   cd CV_ISLR_WWW2025
+   git clone https://github.com/Jiafei127/CV-ISLR.git
+   cd CV-ISLR
    
 2. Install dependencies:
    ```bash
